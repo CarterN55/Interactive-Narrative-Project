@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b40ad2b96a86d7a4d99612bbcd6ee4e1, type: 3}
+  m_Name: Journey to the Arcade
+  m_EditorClassIdentifier: Assembly-CSharp::Dialogue
+  RootNode:
+    dialogueText: "Today, the arcade has brought in brand new games for people to
+      play. To get to the arcade, you need to take the bus, however, word on the
+      street is that there is another way to get there. You wake up with a feeling
+      of excitement. You get all your things and make your way to the bus stop. You
+      arrive at the bus stop. Many minutes go by and the bus still hasn\u2019t arrived
+      yet. You then think about the rumored other way to get to the arcade."
+    responses:
+    - responseText: Wait for the bus
+      nextNode:
+        dialogueText: You wait another 30 minutes but finally, the bus arrives. You
+          get on the bus and are on your way to the arcade. Everything seems fine
+          until at one stop, a man enters the bus and then pulls out a gun, threatening
+          the driver and forcing him to drive to a bank. This bank just so happens
+          to be in the same plaza as the arcade. You are forced to wait for the bus
+          to arrive at the bank so that the hijacker leaves and enters the bank.
+        responses:
+        - responseText: Continue
+          nextNode:
+            dialogueText: The bus eventually arrives at the bank. Once the hijacker
+              gets off the bus and enters the bank, you squeeze through the doors
+              and run to the arcade. After getting inside the arcade, you finally
+              can play, unfortunately, the hijacker who just finished robbing the
+              bank, has entered the arcade and is looking to rob it as well. He is
+              currently facing the employee with his back toward you. Nearby is a
+              spare hammer for one of the arcade machines that looks like it has
+              a blunt surface.
+            responses:
+            - responseText: Knock him out
+              nextNode:
+                dialogueText: You knock the robber and he falls to the ground. The
+                  employee begins to call 911 and tells you to grab the gun and keep
+                  an eye on him until police arrive. The police eventually arrive
+                  and take the him away. Although the robber was arrested, the arcade
+                  is now closed until tomorrow.
+                responses:
+                - responseText: Continue
+                  nextNode:
+                    dialogueText: The next day, the wake to go to the arcade, this
+                      time to hopefully get to play in the arcade. You walk out the
+                      door and see a police officer telling you to enter his car.
+                      You reluctantly enter and he begins driving. After some time,
+                      you arrive at the arcade. The officer tells you that after
+                      what you went through yesterday, this was their way of saying
+                      thank you.
+                    responses:
+                    - responseText: YOU WIN
+                      nextNode:
+                        dialogueText: 
+            - responseText: Try taking his gun
+              nextNode:
+                dialogueText: "You try to take the gun from the robber. You reach
+                  for the gun as he turns around and then everything goes black.
+                  Turns out trying to take a gun from someone wasn\u2019t as easy
+                  as you thought. You were shot and killed trying to stop the hijacker."
+                responses:
+                - responseText: YOU DIED
+                  nextNode:
+                    dialogueText: 
+                    responses: []
+    - responseText: Find another way
+      nextNode:
+        dialogueText: "You notice a nearby forest with the dirt trail leading in
+          the direction of the arcade. The forest is quiet, calm and peaceful. Everything
+          seems fine. After quite some time, you finally arrive at the arcade. Only
+          to see police outside the arcade. It turns out that someone hijacked the
+          bus you would have taken and used to rob a bank and the arcade. After all
+          that time taking the another path, you ended up avoiding a dangerous situation.
+          Even though you couldn\u2019t play at the arcade, at least you\u2019re
+          not dead."
+        responses:
+        - responseText: YOU WIN
+          nextNode:
+            dialogueText: 
+            responses: []
