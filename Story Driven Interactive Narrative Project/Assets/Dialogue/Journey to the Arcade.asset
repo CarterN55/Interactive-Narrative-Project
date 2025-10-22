@@ -13,16 +13,16 @@ MonoBehaviour:
   m_Name: Journey to the Arcade
   m_EditorClassIdentifier: Assembly-CSharp::Dialogue
   RootNode:
-    dialogueText: "Today, the arcade has brought in brand new games for people to
-      play. To get to the arcade, you need to take the bus, however, word on the
-      street is that there is another way to get there. You wake up with a feeling
-      of excitement. You get all your things and make your way to the bus stop. You
-      arrive at the bus stop. Many minutes go by and the bus still hasn\u2019t arrived
-      yet. You then think about the rumored other way to get to the arcade."
+    dialogueText: "Today, the arcade has brought in a brand new game called PlatyParry
+      that you want to play. To get to the arcade, you need to take the bus, however,
+      word on the street is that there is another way to get there. You wake up with
+      a feeling of excitement. You get all your things and make your way to the bus
+      stop. You arrive at the bus stop. Many minutes go by and the bus still hasn\u2019t
+      arrived yet. You then think about the rumored other way to get to the arcade.  "
     responses:
     - responseText: Wait for the bus
       nextNode:
-        dialogueText: You wait another 30 minutes but finally, the bus arrives. You
+        dialogueText: You wait another 5 minutes but finally, the bus arrives. You
           get on the bus and are on your way to the arcade. Everything seems fine
           until at one stop, a man enters the bus and then pulls out a gun, threatening
           the driver and forcing him to drive to a bank. This bank just so happens
@@ -50,13 +50,13 @@ MonoBehaviour:
                 responses:
                 - responseText: Continue
                   nextNode:
-                    dialogueText: The next day, the wake to go to the arcade, this
-                      time to hopefully get to play in the arcade. You walk out the
-                      door and see a police officer telling you to enter his car.
-                      You reluctantly enter and he begins driving. After some time,
-                      you arrive at the arcade. The officer tells you that after
-                      what you went through yesterday, this was their way of saying
-                      thank you.
+                    dialogueText: 'The next day, you wake up excited to go to the
+                      arcade, this time to hopefully get to play PlatyParry. You
+                      walk out the door and see a police officer telling you to enter
+                      his car. You reluctantly enter and he begins driving. After
+                      some time, you arrive at the arcade. The officer tells you
+                      that after what you went through yesterday, this was their
+                      way of saying thank you. '
                     responses:
                     - responseText: YOU WIN
                       nextNode:
@@ -79,7 +79,7 @@ MonoBehaviour:
           seems fine. After quite some time, you finally arrive at the arcade. Only
           to see police outside the arcade. It turns out that someone hijacked the
           bus you would have taken and used to rob a bank and the arcade. After all
-          that time taking the another path, you ended up avoiding a dangerous situation.
+          that time taking another path, you ended up avoiding a dangerous situation.
           Even though you couldn\u2019t play at the arcade, at least you\u2019re
           not dead."
         responses:
